@@ -5,8 +5,27 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgb(151, 150, 167) 0%, rgb(49, 49, 88) 25%, rgba(118, 149, 157, 0.837) 100%);
 }
 
+h1 {
+  text-align: center;
+  margin: 30px 0;
+  color: whitesmoke;
+  
+}
+
+.home {
+  color: white;
+  font-size: 1.2em;
+  
+}
+
+.home div{
+  margin-top: 1px;
+  margin-bottom: 10px;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
